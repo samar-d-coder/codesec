@@ -63,3 +63,27 @@ class CodeSecApp(App):
         path = Path(event.path)
         code_view.update_code(path)
         security_panel.scan_file(path)
+
+def main():
+    """CLI entry point"""
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="CodeSec CLI - Security and Privacy Analyzer")
+    parser.add_argument("path", help="Path to analyze", type=Path)
+    parser.add_argument("--report", help="Generate report file", type=Path)
+    
+    args = parser.parse_args()
+    
+    if args.report:
+        # Run in report mode
+        scanner = SecurityScanner()
+        report_gen = ReportGenerator()
+        issues = scanner.scan_file(args.path)
+        report_gen.generate_markdown({"issues": issues}, args.report)
+    else:
+        # Run in TUI mode
+        app = CodeSecApp()
+        app.run()
+
+if __name__ == "__main__":
+    main()

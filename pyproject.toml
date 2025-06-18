@@ -40,3 +40,18 @@ dev = [
     "isort>=5.0.0",
     "mypy>=1.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/samar-d-coder/codesec"
+Repository = "https://github.com/samar-d-coder/codesec.git"
+Issues = "https://github.com/samar-d-coder/codesec/issues"
+Changelog = "https://github.com/samar-d-coder/codesec/blob/main/CHANGELOG.md"
+
+[project.scripts]
+codesec = "codesec.main:main"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
