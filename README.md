@@ -50,11 +50,11 @@ cd codesec
 ```
 ## Install required files.
 ```bash
-python install -r requirements.txt
+pip install -r reqirements.txt
 ```
 ## Install dependancies.
 ```bash
-python install -e .
+pip install -e .
 ```
 ## To run:
 ```bash
@@ -71,6 +71,10 @@ codesec .
 Start the TUI application:
 
 ```bash
+python -m codesec.main
+```
+or
+```bash
 codesec .
 ```
 
@@ -81,7 +85,7 @@ codesec .
 - `Tab`: Switch between panels
 - `Q`: Quit
 
-## Development Setup
+## Development Setup (for devs).
 
 1. Clone the repository:
 
