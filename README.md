@@ -50,7 +50,7 @@ cd codesec
 ```
 ## Install required files.
 ```bash
-pip install -r requirements.txt
+pip install -r reqirements.txt
 ```
 ## Install dependancies.
 ```bash
