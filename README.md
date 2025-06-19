@@ -88,14 +88,7 @@ codesec .
 ![Security Scan](https://github.com/samar-d-coder/codesec/blob/main/docs/screenshot/main.png)
 *Security scan results with highlighted issues*
 
-## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for a list of changes.
 
 ## Acknowledgments
 
