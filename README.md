@@ -82,10 +82,10 @@ codesec .
 
 ## Screenshots
 
-![Main Interface](docs/screenshots/main.png)
+![Main Interface](https://github.com/samar-d-coder/codesec/blob/main/docs/screenshot/main.png)
 *Main interface showing file tree, code viewer, and security panel*
 
-![Security Scan](docs/screenshots/run.png)
+![Security Scan](https://github.com/samar-d-coder/codesec/blob/main/docs/screenshot/main.png)
 *Security scan results with highlighted issues*
 
 ## Contributing
