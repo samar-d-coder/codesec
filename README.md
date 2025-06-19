@@ -26,11 +26,6 @@ A powerful terminal-based tool that combines codebase exploration with privacy a
 
 CodeSec CLI requires Python 3.10 or later.
 
-### From PyPI
-
-```bash
-pip install codesec-cli
-```
 
 ### From Source
 
