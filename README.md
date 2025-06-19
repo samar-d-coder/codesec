@@ -88,7 +88,9 @@ codesec .
 ![Security Scan](https://github.com/samar-d-coder/codesec/blob/main/docs/screenshot/main.png)
 *Security scan results with highlighted issues*
 
+## Screen-record
 
+![Interface](https://github.com/samar-d-coder/codesec/blob/main/docs/screenshot/test.gif)
 
 ## Acknowledgments
 
