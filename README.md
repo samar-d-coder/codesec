@@ -31,8 +31,39 @@ CodeSec CLI requires Python 3.10 or later.
 
 ```bash
 git clone https://github.com/samar-d-coder/codesec.git
+```
+
+## Change dir.
+```bash
 cd codesec
-pip install -e .
+```
+
+## To run in virtual evoirment (optional).
+```bash
+   # Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+
+   # macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+```
+## Install required files.
+```bash
+python install -r requirements.txt
+```
+## Install dependancies.
+```bash
+python install -e .
+```
+## To run:
+```bash
+python -m codesec.main
+```
+or
+
+```bash
+codesec .
 ```
 
 ## Usage
