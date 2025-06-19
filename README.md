@@ -73,6 +73,10 @@ Start the TUI application:
 ```bash
 python -m codesec.main
 ```
+or
+```bash
+codesec .
+```
 
 ### Keyboard Shortcuts
 
